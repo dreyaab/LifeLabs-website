@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.479)25%, rgba(0, 0, 0, 0.397)25%), url(sign4.jpg);
+    height: 160px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 5%;
+}
+
+.logo{
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.nav_bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav_bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+
+.nav_bar ul li a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.nav_bar ul li a:hover{
+    color:rgb(0, 0, 0);
+}
+
+.center-text {
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 35vh; 
+    font-family: Cambria;
+    font-size: 45px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    margin-bottom: 50%;
+}
+
+.container {
+    text-align: left; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.head{
+    font-size: 55px;
+    font-family: Cambria;
+}
+
+.h2{
+    font-size: 30px;
+    font-family: Cochin;
+}
+
+.par{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #3a3a3a;
+}
+
+.cont2{
+    text-align: left; 
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.p2{
+    font-size: 18px;
+        font-family: sans-serif;
+        text-align: left;
+}
+
+.p4{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.p6{
+    font-size: 18px;
+        font-family: sans-serif;
+        text-align: left;
+}
+
+.p8{
+    font-size: 18px;
+        font-family: sans-serif;
+        text-align: left;
+}
+
+.p11{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.img_deg5{
+    width: 50%;
+    height: 300px;   
+}
+
+footer {
+    background-color: #ffffff; 
+    color: #000000; 
+    text-align: center;
+    padding: 20px 0; 
+  }
+
+  .cont6{
+    text-align: left; 
+    margin-top: 50px;
+    padding-left: 20px;
+  }
+
+  .head4{
+    font-size: 55px;
+    font-family: Cambria;
+  }
+  
+  .center {
+    text-align: center;
+  }
+
+.pic{
+    width: 95%;
+    height: 800px;
+}
+
+.pp{
+    display:inline;
+    align-items: left;
+    justify-content: start;
+    font-size: 30px;
+    font-family: Cambria;
+    color: #000000;
+}
+
+.img_deg9{
+    width: 55%;
+    height: 500px;
+}
